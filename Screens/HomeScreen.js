@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Button } from "react-native";
 export default function HomeScreen({navigation}){
   return (
     <View>
-      <Text>Home Screen</Text>
+      <Text style={styles.container}>Home Screen</Text>
       <Button 
         onPress={()=> 
           navigation.navigate('TestScreen')}
