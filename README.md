@@ -1,3 +1,8 @@
+this is a precongfigured template i will be using for react native apps that use drawers.
+
+this readme also provides instructions and on how to set up React-Navigation Drawers.
+
+
 stepps to set up drawer in react native.
 
 1. ``` npx create-expo-app AppName ```
@@ -5,7 +10,7 @@ stepps to set up drawer in react native.
 3. ``` npm install @react-navigation/drawer ```
 4. ``` npx expo install react-native-gesture-handler react- native-reanimated ```
 
-If for some reason yu are getting an error code you need to add the bellow code to your babel.config.js
+If for some reason you are getting an error code saying native-reanimated not working you need to add the bellow code to your babel.config.js
 
 ```
 module.exports = function (api) {
