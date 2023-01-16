@@ -10,10 +10,14 @@ export default function TestScreen({navigation}){
   function onPressHandler(){
     navigation.navigate('Home')
   }
+  function openDrawerHandler() {
+    navigation.toggleDrawer()
+  }
   return (
     <FlexScreen>
       <TextTitle>Test Screen</TextTitle>
         <Buttons onPress={onPressHandler}>Home</Buttons>
+        <Buttons onPress={openDrawerHandler} >Open Drawer</Buttons>
     </FlexScreen>
   )
 };
